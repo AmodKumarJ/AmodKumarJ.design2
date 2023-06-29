@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background:url(/image6.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(138, 138, 131, 0.5);
+}
+
+
+.myMenu{
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(750deg,black,grey,black);
+}
+.myMenu img{
+    margin-top: 30px;
+    margin-left: 10%;
+    width:80%;
+    height: 30%;
+    border-radius: 50%;
+    box-shadow:0 0 10px rgb(98, 68, 217),0 0 30px rgb(247, 240, 20);
+
+}
+.menuContent{
+    width: 100%;
+    height: 70%;
+    margin-top: 30px;
+    
+}
+.myContent{
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+   margin-top: 20px;
+   margin-left: 10%;
+   border-radius: 20px;
+   background: linear-gradient(750deg,blue,rgb(236, 39, 207));
+   font-weight: 800;
+   color: gold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.myContent:hover{
+    box-shadow:0 0 20px rgb(255, 255, 255), 0 0 60px rgb(216, 96, 27)  ;
+}
